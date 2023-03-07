@@ -2,7 +2,7 @@
 **This is currently a work in progress and I will begin pushing the source code once it is reasonably stable.**
 
 # Fatewright (WORK IN PROGRESS)
-Fatewright is an opensoure project (written in Java) to facilitate the creation of custom text-based story games, such as gamebooks, CYOA games or other kinds of interactive fiction texts. \
+Fatewright is an opensoure project (written in Java) to facilitate the creation of custom text-based story games, such as gamebooks, CYOA games or other kinds of interactive fiction texts.
 
 ## Useful links
 * [Quick Guide]()
