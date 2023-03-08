@@ -13,7 +13,7 @@ This is an example:
 /> race Human
 "Oh, you're a human," she said, relief showing in her face.
 /> gender Male
-"Yes, but he's a man," the older woman said.
+"Yes, but he's a man," the older woman said, looking you over.
 /< 1
 /< 0
 ```
