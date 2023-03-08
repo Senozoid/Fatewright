@@ -1,4 +1,4 @@
-﻿# Quick Guide to Fatewright
+﻿# Quick Guide to Fatewright (INCOMPLETE)
 ## Format of the pages (.fwpg files)
 ### Overview
 Pages, or pagefiles, are the smallest coherent units through which the story is presented to the player. Each choice the player makes in the story, leads the program to another page. These pages have story content, instructions for Fatewright, and finally, information about the options to be presented to the player. Page files have the extension ".fwpg", which stands for Fatewright page.
