@@ -15,7 +15,10 @@ This is an example:
 /> gender Male
 "Yes, but he's a man," the older woman said, looking you over cautiously.
 /< 1
+/> gender Female
 "And a woman, thankfully," the older woman said, relaxing.
+/< 1
+"Either way," the younger one replied, "We don't have a choice."
 /< 0
 ```
 Apart from these commands, line comments as a part of the text are also supported. Everything in a line after `/!` is ignored by Fatewright, as long as it is not on the same line as an invoked or nestable command, or the closing of one. \
