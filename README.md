@@ -1,14 +1,15 @@
-# NOTES
-***This is currently a work in progress and I will begin pushing the source code once it is reasonably stable.***
-
 # Fatewright (WORK IN PROGRESS)
 Fatewright is an opensoure project (written in Java) to facilitate the creation of custom text-based story games, such as gamebooks, CYOA games or other kinds of interactive fiction texts.
 
+## NOTES
+***This is currently a work in progress and I will begin pushing the source code once it is reasonably stable.***
+
 ## Useful links
-* [Quick Guide]()
+* [Quick Guide](/Quick Guide.md)
 * [Full Documentation]()
 * [Forum]()
 * [Zenerian Chronicles: Shadow of Doom](https://github.com/Senozoid/ZenChron)
+
 ## How it works
 Fatewright relies on a concept of pages and a playthrough file. Each player decision or turn of events leads to a new page in the story. \
 A page is essentially a text file with a .fwpg extension which contains the story text, along with some very simple scripts to tell the engine what to do when. For example, the player may be shown a certain passage from the page only if the player character passes a skillcheck, or if they have a certain item in their possession, and so on. You don't need to know any coding to write the scripts, see the [Quick Guide]() for more info. One more page file is used to dynamically store the displayed text from the last read page so that it can be displayed again without executing the scripts from the original page. \
