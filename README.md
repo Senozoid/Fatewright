@@ -2,7 +2,9 @@
 Fatewright is an opensoure project (written in Java) to facilitate the creation of custom text-based story games, such as gamebooks, CYOA games or other kinds of interactive fiction texts.
 
 ## NOTES
-***This is currently a work in progress and I will begin pushing the source code once it is reasonably stable.***
+***This is currently a work in progress and I will begin pushing the source code once it is reasonably stable. \
+Neither this README nor the Quick Guide is complete yet. \
+I am currently mostly working on [a game](https://github.com/Senozoid/ZenChron) which uses a makeshift version of Fatewright, so that is my focus right now.***
 
 ## Useful links
 * [Quick Guide](Quick_Guide.md)
