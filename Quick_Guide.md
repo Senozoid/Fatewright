@@ -17,7 +17,7 @@ This is an example:
 /$- 1
 /$- 0
 ```
-Apart from these commands, line comments are also supported. Everything in a line after `/!` is ignored by Fatewright. \
+Apart from these commands, line comments as a part of the text are also supported. Everything in a line after `/!` is ignored by Fatewright, as long as it is not on the same line as an invoked or nestable command, or the closing of one. \
 If the author wishes to use `/` as a word within the story content, it has to be instead written as `//`. This relies on the hope that `//` itself will not need to be used as a word in the story. \
 The important thing to remember about the scripts, is that whitespaces and linebreaks are meaningful, and it is advisable to understand when to and when not to use them.
 ### Options
