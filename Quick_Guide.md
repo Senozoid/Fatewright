@@ -4,9 +4,19 @@
 Pages, or pagefiles, are the smallest coherent units through which the story is presented to the player. Each choice the player makes in the story, leads the program to another page. These pages have story content, instructions for Fatewright, and finally, information about the options to be presented to the player. Page files have the extension ".fwpg", which stands for Fatewright page.
 ### Scripts
 Each page has two sections, separated by `/--`, the former being the main story content of the page. Within the story content may be runtime instructions for Fatewright, also known as scripts. Each instruction is triggered by a keyword, here referred to as a command. These commands are of three types: inline, invoked, and nestable. \
-**Inline** commands are single-word commands generally used for formatting (newlines, paragraphs etc), and can be used in the same line with the story text, hence the name. \
+**Inline** commands are not really commands, more like single-word cues generally used for formatting (newlines, paragraphs etc), and can be used in the same line with the story text, hence the name. \
 **Invoked** commands are less simple, and are preceeded by a `/` and a whitespace. The `/` declares that the next word is an invoked command. These commands expect arguments, and often (though not in all cases) parse the remainder of the line they appear in, to find them. This is why it is good practice to write each invoked command in its own separate line along with its arguments. \
-**Nestable** commands are similar to invoked commands in that they expect arguments, but they are more complex (and more powerful) than invoked commands. Each nestable command opens its own reader (think sub-page), where other commands can appear just like they appear anywhere else in the page. Several levels of nested commands can be written in this manner. However, since this uses recursion to achieve the nesting, it is advisable to use it sparingly. See [examples]() for usage instances. Nested commands are invoked with a `/nest` (NOTE to self: change to `/$`) followed by a whitespace and the command, and are ended with a `/endnest` (NOTE to self: change to `/$-`) followed by a whitespace and the depth of the nest level which is to be closed. The top level is `0`, and it increases the deeper the nesting grows. \
+**Nestable** commands are similar to invoked commands in that they expect arguments, but they are more complex (and more powerful) than invoked commands. Each nestable command opens its own reader (think sub-page), where other commands can appear just like they appear anywhere else in the page. Several levels of nested commands can be written in this manner. However, since this uses recursion to achieve the nesting, it is advisable to use it sparingly. \
+Nested commands are invoked with a `/$` followed by a whitespace and the command, and are ended with a `/$-` followed by a whitespace and the depth of the nest level which is to be closed. The top level is `0`, and it increases the deeper the nesting grows. \
+This is an example:
+```
+/$ race Human
+"Oh, you're a human," she said, relief showing in her face.
+/$ gender Male
+"Yes, but he's a man," the older woman said.
+/$- 1
+/$- 0
+```
 Apart from these commands, line comments are also supported. Everything in a line after `/!` is ignored by Fatewright. \
 If the author wishes to use `/` as a word within the story content, it has to be instead written as `//`. This relies on the hope that `//` itself will not need to be used as a word in the story. \
 The important thing to remember about the scripts, is that whitespaces and linebreaks are meaningful, and it is advisable to understand when to and when not to use them.
