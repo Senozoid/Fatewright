@@ -25,6 +25,8 @@ Since .fwpg and .fwsv are text files, they can be potentially read or edited man
 ## Other info
 <details>
 <summary>Quick backstory</summary>
-When I was in college, I started making a text adventure game called Zenerian Chronicles. There were tools to help with this, but since at that time I was not aware of any such tools which gave me complete control over the game mechanics, I decided to build the game from scratch using my very limited Java knowledge. As I was writing the code for what would basically be the engine for my game, I realised that to give myself some freedom in the future, I was making the engine somewhat independent of the story. This meant that others could use my engine to turn their own stories into interactive text games. And thus, Fatewright was born.
+
+In my final year of college, I started making a text adventure game called Zenerian Chronicles. There were tools to help with this, but since at that time I was not aware of any such tools which gave me complete control over the game mechanics, I decided to build the game from scratch using my very limited Java knowledge. As I was writing the code for what would basically be the engine for my game, I realised that to give myself some freedom in the future, I was making the engine somewhat independent of the story. This meant that others could use my engine to turn their own stories into interactive text games. And thus, Fatewright was born.
+
 </details>
 
