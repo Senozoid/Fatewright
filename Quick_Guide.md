@@ -13,12 +13,12 @@ This is an example:
 /> race Human
 "Oh, you're a human," she said, relief showing in her face.
 /> gender Male
-"Yes, but he's a man," the older woman said, looking you over cautiously.
+/l "Yes, but he's a man," the older woman said, looking you over cautiously.
 /< 1
 /> gender Female
-"And a woman, thankfully," the older woman said, relaxing.
+/l "And a woman, thankfully," the older woman said, relaxing.
 /< 1
-"Well," the younger one replied, "It's not like we have much of a choice anyway."
+/l "Well," the younger one replied, "It's not like we have much of a choice either way."
 /< 0
 ```
 Apart from these commands, line comments as a part of the text are also supported. Everything in a line after `/!` is ignored by Fatewright, as long as it is not on the same line as an invoked or nestable command, or the closing of one. \
