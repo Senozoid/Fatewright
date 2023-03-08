@@ -4,7 +4,7 @@ Fatewright is an opensoure project (written in Java) to facilitate the creation 
 ## NOTES
 ***This is currently a work in progress and I will begin pushing the source code once it is reasonably stable. \
 Neither this README nor the Quick Guide is complete yet. \
-I am currently mostly working on [a game](https://github.com/Senozoid/ZenChron) which uses a makeshift version of Fatewright, so that is my focus right now.***
+I am currently mostly working on [a game](https://github.com/Senozoid/ZenChron) which uses a makeshift version of Fatewright, so that is my main focus right now.***
 
 ## Useful links
 * [Quick Guide](Quick_Guide.md)
