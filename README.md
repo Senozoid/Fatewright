@@ -5,7 +5,7 @@ Fatewright is an opensoure project (written in Java) to facilitate the creation 
 ***This is currently a work in progress and I will begin pushing the source code once it is reasonably stable.***
 
 ## Useful links
-* [Quick Guide](/Guide.md)
+* [Quick Guide](Quick Guide.md)
 * [Full Documentation]()
 * [Forum]()
 * [Zenerian Chronicles: Shadow of Doom](https://github.com/Senozoid/ZenChron)
