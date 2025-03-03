@@ -1,12 +1,20 @@
-# Fatweright pages
+# Contents
+
+- [Designing](#designing)
+- [Writing](#writing)
+- [Publishing](#publishing)
+
+# Designing
+
+# Writing
 
 In Fatewright, pages are the smallest coherent units through which the story is presented to the player. Each choice the player makes in the story, leads them to another page. These pages have story content, instructions for Fatewright, and finally, information about the options to be presented to the player. Pages are created through files with the extension ".fwpg", which stands for Fatewright page.
 
-# Story text
+## Story text
 
-## Comments
+### Comments
 
-### Line comments
+#### Line comments
 
 Line comments begin with `//`, and are recognised only if not immediately preceded by a non-whitespace character.
 
@@ -22,7 +30,7 @@ This is line 1. //This is a line comment
 This is still line 1.
 ```
 
-### Block comments
+#### Block comments
 
 Block comments begin with `/*` and end with `*/`, and are recognised only if not immediately preceded by a non-whitespace character.
 
@@ -45,9 +53,9 @@ This is line 1. /*This is a block comment*/
 This is line 2.
 ```
 
-# Instructions
+## Instructions
 
-## Conditionals
+### Conditionals
 
 ```fatewright
 $> BIO: !elf
@@ -67,12 +75,20 @@ The woman rolled her eyes and asked you, "Do you speak spoilt? Can you convince 
 $<
 ```
 
-## Other commands
+### Other commands
 
-### Quick cases
+#### Quick cases
 
-### Flagging
+#### Flagging
 
-### Inventory management
+#### Inventory management
 
-## Escape character
+### Escape character
+
+# Publishing
+
+## Compiling
+
+## Packaging
+
+## Releasing
