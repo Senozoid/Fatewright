@@ -6,6 +6,8 @@
 
 ## What is it?
 
+> **NOTE:** This is a work in progress. The source code will be available soon.
+
 Fatewright is an open-source system for writing choice-based text games. It is great for writing simple interactive stories, as well as for games with more complex logic. 
 
 You do not need any special software to write an interactive Fatewright story; but to play it, you need a software that interprets stories written using this system. You can use the original interpreter provided here (which happens to share its name with the writing system), but you can also write your own if you know programming. Since this is an open-source project, you can also take this original code and modify it to suit your needs.
