@@ -1,10 +1,14 @@
-﻿# A quick guide to Fatewright
+﻿# A Quick Guide to Fatewright
 
-## Overview
+## What is Fatewright?
 
-## Is it for you
+## Is it for you?
 
-If any of these apply to you, then Fatewright may be the tool for you :-
+Fatewright was made because I wanted to write my own electronic gamebook. When I started it, I was not aware of the highly active interactive fiction [communities](https://emshort.blog/how-to-play/the-if-community/) or any of the existing [systems](https://www.ifwiki.org/Authoring_system) like Inform, ChoiceScript or Twine. I continued using my own system because I made it myself, was comfortable using it, and could change anything I did not like. If you are just starting out, you might find one of the more well-known systems to be better suited to your needs.
+
+---
+
+**If any of these apply to you, then Fatewright may be the tool for you :--**
 
 + You want to write a primarily choice-based story.
 
@@ -12,7 +16,7 @@ If any of these apply to you, then Fatewright may be the tool for you :-
 
 + **_(NOT NECESSARY)_** You like to tinker with code, and may be familiar with Java.
 
-If any of these apply to you, then Fatewright is not what you want :-
+**If any of these apply to you, then Fatewright is not what you want :--**
 
 + You want to create a game with music and illustrations.
 
@@ -20,7 +24,7 @@ If any of these apply to you, then Fatewright is not what you want :-
 
 + You are looking for a tool to write a hyperlink-based browser game.
 
-## How it works
+## How does it work?
 
 Fatewright relies on a concept of "pages". These are units of storytelling; each player decision or turn of events leads to a new page in the story. The simplest of pages may contain a static block of text, followed by options that the player can choose from. Once the player has read the content of the page, they may choose one of the options, which determines the next page. And the story continues to progress until the player character meets their demise, or reaches one of the endings in the story.
 
@@ -30,8 +34,8 @@ No real coding knowledge is required for any of this. However, if the author is 
 
 For more detailed information to start writing your story, take a look at the [reference](reference.md).
 
-## Getting started
+## How to get started?
 
-## How you can contribute
+## How to contribute?
 
 ## Other info
