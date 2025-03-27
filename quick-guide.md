@@ -4,7 +4,7 @@
 
 ## Is it for you?
 
-Fatewright was made because I wanted to write my own electronic gamebook. When I started it, I was not aware of the highly active interactive fiction [communities](https://emshort.blog/how-to-play/the-if-community/) or any of the existing [systems](https://www.ifwiki.org/Authoring_system) like Inform, ChoiceScript or Twine. I continued using my own system because I made it myself, was comfortable using it, and could change anything I did not like. If you are just starting out, you might find one of the more well-known systems to be better suited to your needs.
+Fatewright was made because I wanted to write my own electronic gamebook. When I started it, I was not aware of the interactive fiction [communities](https://emshort.blog/how-to-play/the-if-community/) or any of the existing [systems](https://www.ifwiki.org/Authoring_system) like Inform, ChoiceScript or Twine. Later, I continued using my own system because I made it myself, was comfortable using it, and could change anything I did not like. If you are just starting out, you might find one of the more well-known systems to be better suited to your needs.
 
 ---
 

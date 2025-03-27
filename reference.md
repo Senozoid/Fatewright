@@ -58,21 +58,18 @@ This is line 2.
 ### Conditionals
 
 ```fatewright
-$> BIO: !elf
 $> BIO: human
-"Finally, a fellow human," the woman said, shedding her annoyed expression.
+    "Finally, a fellow human," the woman said, shedding her annoyed expression.
+$< $!>
+    "I could use some help over here," the woman said, looking thoroughly annoyed.
 $<
-$!>
-"I could use some help over here," the woman said, looking thoroughly annoyed.
-$<
-$> STAT: appearance>2 && combatskill>5
-"And you look like you may be able to handle yourself as well," she added approvingly, measuring you with an experienced eye, "With these little ones, you might end up needing to."
+$> STAT: appearance>3 && combatskill>2
+    "And you look like you may be able to handle yourself as well," she added approvingly, measuring you with an experienced eye, "With these little ones, you might end up needing to."
 $<
 
 "Urghh, $case:gender he/she/this one/- smells even worse. Prithee, do not breathe on me," one of the children remarked, taking a step back from you. Then, turning to the woman, added, "Could you perhaps continue your conversation outside?"
 
 The woman rolled her eyes and asked you, "Do you speak spoilt? Can you convince these brats that I am only trying to help them?"
-$<
 ```
 
 ### Other commands
