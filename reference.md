@@ -16,6 +16,8 @@ In Fatewright, pages are the smallest coherent units through which the story is 
 
 ### Comments
 
+Comments are supported within story text. However, each Fatewright instruction handles the text following it in a unique manner, so comments are not guaranteed to consistently work in instruction lines.
+
 #### Line comments
 
 Line comments begin with `//`, and are recognised only if not immediately preceded by a non-whitespace character.

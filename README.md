@@ -8,13 +8,13 @@
 
 > **NOTE:** This is a work in progress. The source code will be available soon.
 
-Fatewright is an open-source system for writing choice-based text games. It is great for writing simple interactive stories, as well as for games with more complex logic. 
+Fatewright is an open-source system for writing choice-based text games. It is great for writing simple nonlinear stories, as well as for interactive games with more complex logic. 
 
 You do not need any special software to write an interactive Fatewright story; but to play it, you need a software that interprets stories written using this system. You can use the original interpreter provided here (which happens to share its name with the writing system), but you can also write your own if you know programming. Since this is an open-source project, you can also take this original code and modify it to suit your needs.
 
 ## Is it for you?
 
-Fatewright was made because I wanted to write my own electronic gamebook. When I started it, I was not aware of the interactive fiction [communities](https://emshort.blog/how-to-play/the-if-community/) or any of the existing [systems](https://www.ifwiki.org/Authoring_system) like Inform, ChoiceScript or Twine. Later, I continued using my own system because I made it myself, was comfortable using it, and could change anything I did not like. If you are just starting out, you might find one of the more well-known systems to be better suited to your needs.
+Fatewright was made because I wanted to write my own electronic gamebook. When I started it, I was not aware of the interactive fiction [communities](https://emshort.blog/how-to-play/the-if-community/) or any of the existing [systems](https://www.ifwiki.org/Authoring_system) like Inform, ChoiceScript or Twine. Later, I continued using my own system because I made it myself, was comfortable using it, and could change it as I wanted. If you are just starting out, you might find one of the more well-known systems to be better suited to your needs.
 
 ---
 
